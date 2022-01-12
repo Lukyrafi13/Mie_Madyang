@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luckyrafi13.miemadyang" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MieMadyang"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name=".Menu.Ubah_Menu_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Kategori.Ubah_Kategori_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Stok.Detail_Stok_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Stok.Daftar_Stok_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Stok.Form_Stok_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Penjualan.Daftar_Penjualan_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Penjualan.Tambah_Item_Menu_Penjualan_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Penjualan.Form_Penjualan_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".User.Daftar_User_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".User.Detail_User_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".User.Form_User_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Menu.Form_Menu_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Menu.Detail_Menu_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Kategori.Form_Kategori_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Kategori.Detail_Kategori_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Kategori.Daftar_Kategori_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Home_Activity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
